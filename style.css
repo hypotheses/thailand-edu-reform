@@ -191,6 +191,7 @@
   .age-card--upper{border-top:4px solid var(--gold);}
   .age-card--lower-sec{border-top:4px solid #C09A3E;}
   .age-card--upper-sec{border-top:4px solid var(--brick);}
+  .age-card--tertiary{border-top:4px solid #5B4B8A;}
 
   table.mtbl{width:100%;border-collapse:collapse;}
   table.mtbl th{

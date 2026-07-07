@@ -408,3 +408,29 @@ table.lp-steps tr.total td:last-child{color:var(--ink);}
 .myth-row .m strong{color:var(--brick);}
 .myth-row .r{padding:.7rem 1.1rem;font-size:.9rem;background:#fff;}
 .myth-row .r strong{color:var(--teal);}
+
+/* ===== download bar (hero) ===== */
+.dl-bar{display:flex;flex-wrap:wrap;gap:.6rem;margin-top:1.1rem;}
+.dl-btn{
+  display:inline-flex;align-items:center;gap:.5rem;
+  padding:.6rem 1.05rem;border-radius:9px;
+  font-family:"Sarabun",sans-serif;font-size:.92rem;font-weight:600;
+  text-decoration:none;border:1.5px solid transparent;transition:transform .12s ease,box-shadow .12s ease;
+}
+.dl-btn .ic{font-size:1.05rem;line-height:1;}
+.dl-btn--primary{background:var(--gold);color:#fff;border-color:var(--gold);}
+.dl-btn--primary:hover{transform:translateY(-1px);box-shadow:0 6px 16px rgba(184,137,43,.32);}
+.dl-btn--full{background:transparent;color:var(--ink);border-color:var(--line);}
+.dl-btn--full:hover{border-color:var(--gold);color:var(--gold);transform:translateY(-1px);}
+.dl-btn small{font-family:"JetBrains Mono",monospace;font-weight:400;font-size:.68rem;opacity:.8;}
+
+/* download link inside the sticky TOC */
+.toc .dl-toc{
+  margin-top:.8rem;border-top:1px solid var(--line);padding-top:.8rem;
+}
+.toc .dl-toc a{
+  display:flex;align-items:center;gap:.45rem;
+  color:var(--gold);font-weight:600;font-size:.86rem;text-decoration:none;
+}
+.toc .dl-toc a:hover{text-decoration:underline;}
+.toc .dl-toc a.sub{color:var(--ink-soft);font-weight:400;font-size:.8rem;margin-top:.35rem;}
